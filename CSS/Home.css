@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Design do Fundo*/
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.75)),url(../IMG/Banner-home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Design da Hotbar*/
+.navbar{
+    width: 0%;
+    margin: auto;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 0;
+    cursor: pointer;
+}
+.navbar ul li{
+    width: 100%;
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+}
+
+/*Teste de Apresentação*/
+.textini{
+    width: 15%;
+    margin: auto;
+    padding: 35px;
+    align-items: center;
+    color: white;
+}
+/**/
+
+/**/
